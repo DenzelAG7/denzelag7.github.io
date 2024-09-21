@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <img src="img/WhatsApp Image 2024-09-20 at 21.25.47_01a988da.jpg" alt="Foto de perfil" class="profile-pic">
+            <h1>Denzel Garza</h1>
+            
+            <section class="contact-info">
+                <h2>Contacto</h2>
+                <p>Santa Rita, Copan - Barrio Nuevo Abajo</p>
+                <p>📞 9861-8121</p>
+                <p>✉️ denzelgarza2008@gmail.com</p>
+            </section>
+
+            <section class="skills">
+                <h2>Aptitudes</h2>
+                <ul>
+                    <li>Mantenimiento de Hardware</li>
+                    <li>Instalación de Sistemas Operativos</li>
+                    <li>Desarrollo de Software Básico</li>
+                    <li>Microsoft Office</li>
+                    <li>Bases de Datos</li>
+                    <li>Redes de Computadoras</li>
+                </ul>
+            </section>
+
+            <section class="languages">
+                <h2>Idiomas</h2>
+                <p>Español</p>
+                
+            </section>
+        </aside>
+
+        <main class="main-content">
+            <section class="profile-summary">
+                <h2>Resumen Profesional</h2>
+                <p>Graduado en Bachillerato Técnico en Informática con habilidades en mantenimiento
+                    de hardware, instalación de sistemas operativos, redes, bases de datos y desarrollo 
+                    de software básico. Capaz de solucionar problemas técnicos y optimizar entornos 
+                    informáticos.</p>
+            </section>
+
+            <section class="work-history">
+                <h2>Historial Laboral</h2>
+                <div class="job">
+                    <h3>Inversiones Rosa</h3>
+                    <p><em>Santa Rita Copan, 5/2024 - 9/2024</em></p>
+                    <ul>
+                        <li>Reparacion de hardware de equipos tecnológicos</li>
+                        <li>Instalación de sistemas operativos</li>
+                    </ul>
+                </div>
+                
+            </section>
+
+            <section class="education">
+                <h2>Formación</h2>
+                <p>Bachiller Técnico en Informática, 2024 - CEMG Superación Cashapa</p>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>Curriculum Vitae de Denzel Garza | <span id="fecha"></span></p>
+        <script>
+        
+            const fecha = new Date();
+            document.getElementById("fecha").textContent = fecha.toLocaleDateString();
+        </script>
+    </footer>
+</body>
+</html>
